@@ -2,26 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  @apply font-barlow text-base leading-[1.6] text-black;
+}
+
+ul {
+  @apply list-none;
+}
+
+.container {
+  @apply mx-auto max-w-[1280px] px-4;
+}
+
+.header {
+  background:
+    linear-gradient(0deg, rgba(0, 0, 0, 0.32), rgba(0, 0, 0, 0.32)),
+    linear-gradient(
+      248.75deg,
+      rgba(0, 159, 157, 0.41) 0%,
+      rgba(15, 10, 60, 0.41) 38.46%
+    ),
+    url('/images/banner_image.png') center/cover no-repeat;
+  @apply flex min-h-screen items-center justify-start;
+}
+
+.btn-primary {
+  @apply border-green-normal hover:bg-green-normal mt-4 inline-flex h-[34px] min-w-[108px] items-center border-[1px] border-solid bg-transparent bg-white px-4 py-0 text-center font-semibold tracking-[.03em] text-white transition duration-300 ease-in-out;
 }
