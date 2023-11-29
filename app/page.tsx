@@ -1,12 +1,14 @@
 import Header from './header'
-import Popular from './popular'
+import Populars from './populars'
+import GameSliders from './game-sliders'
 
 export default function Home() {
   return (
     // <main className="flex min-h-screen flex-col items-center p-24">
     <>
       <Header />
-      <Popular />
+      <Populars />
+      <GameSliders />
     </>
   )
 }
