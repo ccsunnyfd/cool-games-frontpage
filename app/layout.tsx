@@ -1,13 +1,13 @@
 import type { Metadata } from 'next'
-import { Barlow_Condensed, Poppins, Righteous, Inter } from 'next/font/google'
+import { Barlow, Poppins, Righteous, Inter } from 'next/font/google'
 import './globals.css'
 
-const barlow_condensed = Barlow_Condensed({
+const barlow_condensed = Barlow({
   weight: ['200', '300', '400', '500', '600', '700', '800', '900'],
   style: ['normal', 'italic'],
   subsets: ['latin'],
   display: 'swap',
-  variable: '--font-barlow-condensed',
+  variable: '--font-barlow',
 })
 
 const poppins = Poppins({

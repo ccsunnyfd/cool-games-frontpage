@@ -10,9 +10,9 @@ const config: Config = {
     extend: {
       fontFamily: {
         sans: ['var(--font-inter)'],
-        barlow: ['var(--font-barlow-condensed)'],
-        poppins: ['var(--font-poppins)'],
-        right: ['var(--font-righteous)'],
+        barlow: ['var(--font-barlow)', 'sans-serif'],
+        poppins: ['var(--font-poppins)', 'sans-serif'],
+        right: ['var(--font-righteous)', 'cursive'],
       },
       colors: {
         'dark': '#04020E',
