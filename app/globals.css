@@ -30,6 +30,10 @@ ul {
   @apply mt-4 inline-flex h-[34px] min-w-[108px] items-center border-[1px] border-solid border-green-normal bg-transparent bg-white px-4 py-0 text-center font-semibold tracking-[.03em] text-white transition duration-300 ease-in-out hover:bg-green-normal;
 }
 
+.section-btn {
+  @apply relative z-10 min-w-[200px] border-[3px] border-solid border-green-normal bg-green-normal px-[18px] py-[10px] text-xl font-bold uppercase tracking-[.15em] text-white transition duration-300 ease-in-out hover:bg-transparent;
+}
+
 /* react-slick custom css */
 .slick-list {
   @apply py-[30px] !important;

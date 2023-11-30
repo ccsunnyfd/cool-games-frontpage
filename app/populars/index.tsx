@@ -70,14 +70,14 @@ const index = () => {
   return (
     <section className="bg-violet-dark-active py-16">
       <div className="container">
-        <div className="font-poppins mb-10 px-0 py-3 text-center text-[32px] font-extrabold tracking-[.1em] text-white">
+        <div className="mb-10 px-0 py-3 text-center font-poppins text-[32px] font-extrabold tracking-[.1em] text-white">
           <h3 className="relative uppercase">
             top popular <span className="text-pink-normal">games</span>
           </h3>
           <div
-            className="bg-green-normal after:border-r-green-normal before:border-l-green-normal relative mx-auto mt-4 h-[6px] w-[160px] 
-                before:absolute before:right-[-5px] before:border-b-[3.5px] before:border-l-[6px] before:border-t-[3.5px] before:border-solid before:border-b-transparent before:border-t-transparent before:content-['']
-                after:absolute after:left-[-5px] after:border-b-[3.5px] after:border-r-[6px] after:border-t-[3.5px] after:border-solid after:border-b-transparent after:border-t-transparent after:content-['']"
+            className="relative mx-auto mt-4 h-[6px] w-[160px] bg-green-normal before:absolute before:right-[-5px] 
+                before:border-b-[3.5px] before:border-l-[6px] before:border-t-[3.5px] before:border-solid before:border-b-transparent before:border-l-green-normal before:border-t-transparent before:content-[''] after:absolute
+                after:left-[-5px] after:border-b-[3.5px] after:border-r-[6px] after:border-t-[3.5px] after:border-solid after:border-b-transparent after:border-r-green-normal after:border-t-transparent after:content-['']"
           />
         </div>
 
@@ -107,10 +107,10 @@ const index = () => {
                   <FaStar className="ms-2 text-[19px]" />
                 </div>
               </div>
-              <div className="bg-violet-light flex-1 px-[18px] py-5">
+              <div className="flex-1 bg-violet-light px-[18px] py-5">
                 <div className="flex flex-col flex-wrap items-start justify-between sm:flex-row">
                   <div className="py-1">
-                    <h4 className="font-poppins mb-[10px] text-[18px] font-extrabold uppercase tracking-[.06em] text-white">
+                    <h4 className="mb-[10px] font-poppins text-[18px] font-extrabold uppercase tracking-[.06em] text-white">
                       {game.title}
                     </h4>
                     <p className="text-base font-normal text-white/90">
@@ -137,10 +137,10 @@ const index = () => {
                   <div className="flex flex-col items-end justify-between">
                     <a
                       href="#"
-                      className="border-green-normal hover:bg-green-normal mt-4 inline-flex h-[34px] 
-                    min-w-[108px] items-center border-[1px] border-solid
-                    bg-transparent px-4 py-0 text-center font-semibold uppercase tracking-[.03em]
-                      text-white transition duration-300 ease-in-out"
+                      className="mt-4 inline-flex h-[34px] min-w-[108px] items-center 
+                    border-[1px] border-solid border-green-normal bg-transparent
+                    px-4 py-0 text-center font-semibold uppercase tracking-[.03em] text-white
+                      transition duration-300 ease-in-out hover:bg-green-normal"
                     >
                       see more
                     </a>
@@ -152,12 +152,7 @@ const index = () => {
         </div>
 
         <div className="mt-[60px] flex justify-center">
-          <Link
-            href="#"
-            className="bg-green-normal border-green-normal relative z-10 
-                  min-w-[200px] border-[3px] border-solid px-[18px] py-[10px] text-xl font-bold uppercase 
-                  tracking-[.15em] text-white transition duration-300 ease-in-out hover:bg-transparent"
-          >
+          <Link href="#" className="section-btn">
             see more games
           </Link>
         </div>
