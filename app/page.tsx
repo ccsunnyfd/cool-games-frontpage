@@ -1,6 +1,7 @@
 import Header from './header'
 import Populars from './populars'
 import GameSliders from './game-sliders'
+import GamePosts from './game-posts'
 
 export default function Home() {
   return (
@@ -32,6 +33,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <GamePosts />
     </>
   )
 }

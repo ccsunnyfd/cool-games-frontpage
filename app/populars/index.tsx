@@ -135,7 +135,7 @@ const index = () => {
                   </div>
 
                   <div className="flex flex-col items-end justify-between">
-                    <a
+                    <Link
                       href="#"
                       className="mt-4 inline-flex h-[34px] min-w-[108px] items-center 
                     border-[1px] border-solid border-green-normal bg-transparent
@@ -143,7 +143,7 @@ const index = () => {
                       transition duration-300 ease-in-out hover:bg-green-normal"
                     >
                       see more
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
