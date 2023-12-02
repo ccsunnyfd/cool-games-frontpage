@@ -2,6 +2,7 @@ import Header from './header'
 import Populars from './populars'
 import GameSliders from './game-sliders'
 import GamePosts from './game-posts'
+import SCCategory from './sc-category'
 
 export default function Home() {
   return (
@@ -35,6 +36,8 @@ export default function Home() {
       </section>
 
       <GamePosts />
+
+      <SCCategory />
     </>
   )
 }

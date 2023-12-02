@@ -68,14 +68,7 @@ const index = () => {
           <h3 className="relative uppercase">
             latest <span className="text-pink-normal">posts</span>
           </h3>
-          <div
-            id="line"
-            className="relative mx-auto mt-4 h-[6px] w-[160px] bg-green-normal before:absolute 
-                            before:right-[-5px] before:border-b-[3.5px] before:border-l-[6px] before:border-t-[3.5px] before:border-solid before:border-b-transparent 
-                            before:border-l-green-normal before:border-t-transparent before:content-['']
-                            after:absolute after:left-[-5px] after:border-b-[3.5px] after:border-r-[6px] after:border-t-[3.5px]
-                            after:border-solid after:border-b-transparent after:border-r-green-normal after:border-t-transparent after:content-['']"
-          ></div>
+          <div className="line"></div>
         </div>
 
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">

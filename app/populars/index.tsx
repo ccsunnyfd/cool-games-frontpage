@@ -74,11 +74,7 @@ const index = () => {
           <h3 className="relative uppercase">
             top popular <span className="text-pink-normal">games</span>
           </h3>
-          <div
-            className="relative mx-auto mt-4 h-[6px] w-[160px] bg-green-normal before:absolute before:right-[-5px] 
-                before:border-b-[3.5px] before:border-l-[6px] before:border-t-[3.5px] before:border-solid before:border-b-transparent before:border-l-green-normal before:border-t-transparent before:content-[''] after:absolute
-                after:left-[-5px] after:border-b-[3.5px] after:border-r-[6px] after:border-t-[3.5px] after:border-solid after:border-b-transparent after:border-r-green-normal after:border-t-transparent after:content-['']"
-          />
+          <div className="line" />
         </div>
 
         <div
@@ -89,7 +85,7 @@ const index = () => {
             <div key={game.id} id="game-card" className="flex flex-col">
               <div
                 className="to-black/27 relative h-[280px] overflow-hidden 
-                        bg-gradient-to-t from-black to-[92.08%]
+                        bg-gradient-to-b from-black to-[92.08%]
                         after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-gradient-to-b
                         after:from-black/0 after:to-black/100 after:content-['']"
               >
