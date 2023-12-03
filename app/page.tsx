@@ -4,6 +4,7 @@ import GameSliders from './game-sliders'
 import GamePosts from './game-posts'
 import SCCategory from './sc-category'
 import SCStores from './sc-stores'
+import Footer from './footer'
 
 export default function Home() {
   return (
@@ -41,6 +42,8 @@ export default function Home() {
       <SCCategory />
 
       <SCStores />
+
+      <Footer />
     </>
   )
 }
