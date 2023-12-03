@@ -3,6 +3,7 @@ import Populars from './populars'
 import GameSliders from './game-sliders'
 import GamePosts from './game-posts'
 import SCCategory from './sc-category'
+import SCStores from './sc-stores'
 
 export default function Home() {
   return (
@@ -38,6 +39,8 @@ export default function Home() {
       <GamePosts />
 
       <SCCategory />
+
+      <SCStores />
     </>
   )
 }
